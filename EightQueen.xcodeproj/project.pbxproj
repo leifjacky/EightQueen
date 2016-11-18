@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		291ECDF61DB0881E005F4A2A /* EightQueenAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291ECDF51DB0881E005F4A2A /* EightQueenAlgorithm.swift */; };
+		291ECDF81DB0884A005F4A2A /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291ECDF71DB0884A005F4A2A /* Point.swift */; };
+		292788C91DB5FE9F002E38FA /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292788C81DB5FE9F002E38FA /* AnimationType.swift */; };
 		29707C781DAA026900AC83D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29707C771DAA026900AC83D8 /* AppDelegate.swift */; };
 		29707C7A1DAA026900AC83D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29707C791DAA026900AC83D8 /* ViewController.swift */; };
 		29707C7C1DAA026900AC83D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29707C7B1DAA026900AC83D8 /* Assets.xcassets */; };
@@ -14,6 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		291ECDF51DB0881E005F4A2A /* EightQueenAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EightQueenAlgorithm.swift; sourceTree = "<group>"; };
+		291ECDF71DB0884A005F4A2A /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		292788C81DB5FE9F002E38FA /* AnimationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationType.swift; sourceTree = "<group>"; };
+		293D7BC71DABACA700EF7FB3 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		29707C741DAA026900AC83D8 /* EightQueen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EightQueen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29707C771DAA026900AC83D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29707C791DAA026900AC83D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +43,7 @@
 		29707C6B1DAA026900AC83D8 = {
 			isa = PBXGroup;
 			children = (
+				293D7BC71DABACA700EF7FB3 /* MyPlayground.playground */,
 				29707C761DAA026900AC83D8 /* EightQueen */,
 				29707C751DAA026900AC83D8 /* Products */,
 			);
@@ -57,6 +65,9 @@
 				29707C7B1DAA026900AC83D8 /* Assets.xcassets */,
 				29707C7D1DAA026900AC83D8 /* Main.storyboard */,
 				29707C801DAA026900AC83D8 /* Info.plist */,
+				291ECDF51DB0881E005F4A2A /* EightQueenAlgorithm.swift */,
+				291ECDF71DB0884A005F4A2A /* Point.swift */,
+				292788C81DB5FE9F002E38FA /* AnimationType.swift */,
 			);
 			path = EightQueen;
 			sourceTree = "<group>";
@@ -132,8 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				291ECDF81DB0884A005F4A2A /* Point.swift in Sources */,
 				29707C7A1DAA026900AC83D8 /* ViewController.swift in Sources */,
 				29707C781DAA026900AC83D8 /* AppDelegate.swift in Sources */,
+				292788C91DB5FE9F002E38FA /* AnimationType.swift in Sources */,
+				291ECDF61DB0881E005F4A2A /* EightQueenAlgorithm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +300,7 @@
 				29707C851DAA026900AC83D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "EightQueenAlgorithm.runForce() -&gt; ():EightQueenAlgorithm.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "n">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EightQueenAlgorithm.checkAll(hasChessBoard : Bool) -&gt; Bool:EightQueenAlgorithm.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "points[j]">
+            </PersistentString>
+            <PersistentString
+               value = "points[i]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.animationDidStop(CAAnimation, finished : Bool) -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "algorithm.nowAnimation">
+            </PersistentString>
+            <PersistentString
+               value = "algorithm.animations">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.runDemo(AnyObject) -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "algorithm.animations">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
